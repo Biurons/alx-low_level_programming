@@ -19,7 +19,7 @@ int main(void)
 		if (boolean)
 		{
 			fn = n1 + n2;
-			printf("' %ld", fn);
+			printf(", %ld", fn);
 			n1 = n2;
 			n2 = fn;
 		}
@@ -37,6 +37,10 @@ int main(void)
 			fn = n1 + n2 + (fn2 / 1000000000);
 			printf(", %ld", fn);
 			printf("%ld", fn2 % 1000000000);
+			n1 = n2;
+			n11 = 22;
+			n2 = fn;
+			n22 = (fn2 % 1000000000);
 		}
 		if (((n1 + n2) < 0) && boolean == 1)
 			boolean = 0;

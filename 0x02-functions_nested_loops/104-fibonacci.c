@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - Prints the first 98 Fibonacci numbers
+ *  main - Prints the first 98 Fibonacci numbers
  *
- * Return: Always 0
+ *  Return: Always 0.
  */
 int main(void)
 {
@@ -12,7 +12,7 @@ int main(void)
 
 	n1 = 1;
 	n2 = 2;
-	boolean = boolean2 = 1;
+	boolean =  boolean2 = 1;
 	printf("%ld, %ld", n1, n2);
 	for (c = 0; c < 96; c++)
 	{
@@ -38,7 +38,7 @@ int main(void)
 			printf(", %ld", fn);
 			printf("%ld", fn2 % 1000000000);
 			n1 = n2;
-			n11 = 22;
+			n11 = n22;
 			n2 = fn;
 			n22 = (fn2 % 1000000000);
 		}
